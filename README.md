@@ -8,19 +8,7 @@
 
 ```
 ```
-[ Developer IDE (Cursor / Claude / Copilot) ]
-        ³   (Dynamic Directives via MCP)
-          ³
-[ Unity Catalog Skill Securables ] <ÄÄ Managed by ÄÄ [ Databricks App (Streamlit) ]
-        ³
-         (Developer submits Pull Request)
-[ GitHub Actions Automated Gatekeeper ]
-        ³
-        ÃÄÄ ? Rejects: Unmasked PII / Missing Liquid Clustering
-        ÀÄÄ ? Approves: 100%% Policy-Adherent Delta Merges
-                 ³
-                  (Databricks Workflows Orchestration)
-[ Medallion Lakehouse: Bronze ? Silver ? Gold ]
+![AegisLake Governed Mesh Architecture](assets/architecture.png)
 ```
 
 ---
