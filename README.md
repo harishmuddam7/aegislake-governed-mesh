@@ -2,17 +2,9 @@
 
 > Decoupling enterprise prompt engineering and compliance rules into first-class Unity Catalog assets with automated CI/CD PR gating and a native Databricks App management portal.
 
----
-
 ## 🏗️ Architectural Overview
-
-```
-```
 ![AegisLake Architecture](assets/Architecture.png)
 
-```
-
----
 ## 🖥️ Live Databricks App UI & Control Center
 
 Hosted natively on Databricks Apps, enabling platform architects to monitor real-time compliance and execute zero-downtime policy hot-swaps.
@@ -29,8 +21,6 @@ Live audit stream recording bot decisions and blocking PRs violating PII or perf
 Modifying Lakehouse directives centrally and propagating updates across coding agents instantly.
 ![Dynamic Policy Hot-Swap](assets/03_dynamic_policy_hotswap.png)
 
----
-
 ## 🔍 End-to-End Medallion Governance Inspector
 
 ### 4. Bronze Layer (Raw & Unprocessed)
@@ -44,8 +34,6 @@ Idempotent Delta Lake `MERGE INTO` with dynamic masking applied to sensitive ide
 ### 6. Gold Layer (Liquid Clustered Aggregations)
 Aggregated business KPIs clustered by region (`CLUSTER BY region_id`) with lineage stamps:
 ![Gold Layer](assets/06_lakehouse_gold_layer_inspector.png)
-
----
 
 ## 🛠️ Tech Stack
 * **Lakehouse Engine:** Databricks, Delta Lake (Liquid Clustering, Delta MERGE), PySpark
