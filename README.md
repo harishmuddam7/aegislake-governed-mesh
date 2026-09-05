@@ -8,7 +8,8 @@
 
 ```
 ```
-![AegisLake Governed Mesh Architecture](assets/architecture.png)
+aegislake-governed-mesh/assets/Architecture.png
+
 ```
 
 ---
