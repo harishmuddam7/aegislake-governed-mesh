@@ -8,7 +8,7 @@
 
 ```
 ```
-aegislake-governed-mesh/assets/Architecture.png
+![AegisLake Architecture](assets/Architecture.png)
 
 ```
 
